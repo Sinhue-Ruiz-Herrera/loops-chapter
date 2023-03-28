@@ -1,9 +1,9 @@
 # Write a program that:
-# 
+#
 # Asks the user to input a word and counts from 1 to however long the word is.
-# 
+#
 # Example (`apple` is the input):
-# 
+#
 # "Enter a word:"
 # apple
 # 1
@@ -14,3 +14,12 @@
 # "apple is 5 letters long!"
 
 p "Enter a word:"
+
+word = gets.chomp
+
+length = word.length
+
+1.upto(length) do |potato|
+  p potato
+end
+p "#{word} is #{word.length} letters long"
